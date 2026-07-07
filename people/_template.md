@@ -18,5 +18,3 @@ channels:
 ---
 
 ## Notas
-
-## Historial

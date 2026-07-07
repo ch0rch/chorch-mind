@@ -21,7 +21,3 @@ channels:
 
 Quiere sesiones 1-1 conmigo para aprender desarrollo con IA y armar un second
 brain como este. **Meets recurrentes: todos los martes 18:00 (hora Argentina).**
-
-## Historial
-
-- 2026-07-07 — Nos conectamos vía X. Primera charla por Meet.
