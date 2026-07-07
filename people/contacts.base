@@ -1,0 +1,29 @@
+formulas:
+  company_group: 'if(note.company, note.company, "Sin empresa")'
+  role_group: 'if(note.role, note.role, "Sin rol")'
+
+filters:
+  and:
+    - file.inFolder("people")
+    - 'note.type == "person"'
+    - 'note.name'
+
+views:
+  - type: table
+    name: "Por empresa"
+    groupBy:
+      property: formula.company_group
+    order:
+      - note.name
+      - note.role
+      - note.relationship
+      - note.last_contact
+  - type: table
+    name: "Por rol"
+    groupBy:
+      property: formula.role_group
+    order:
+      - note.name
+      - note.company
+      - note.relationship
+      - note.last_contact
