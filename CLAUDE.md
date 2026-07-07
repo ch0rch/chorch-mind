@@ -40,6 +40,11 @@ igual en Claude Code y en Eve:
 
 - `contact-curation` — un contacto en lenguaje natural → nota en `people/`.
 - `inbox-triage` — clasifica lo que entra a `inbox/raw/` y lo rutea.
+- `daily-log` — registra interacciones con personas en `daily/` (backlinks).
+- `para-classify` — clasifica notas en PARA (`projects/ areas/ resources/ archive/`) por accionabilidad.
+
+Las notas-tema (MOC, "wiki por tema") viven en `resources/` a partir de
+`resources/_topic-template.md`.
 
 Este `CLAUDE.md` se mantiene chico: estructura, loop y principios. La lógica,
 en los skills.
