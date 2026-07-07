@@ -1,6 +1,6 @@
 ---
 name: reconnect-radar
-description: Use to see which people are due for reconnection. Read-only: scans people/ notes, computes days since last_contact, and flags contacts past a cadence threshold based on relationship (close > 14d, warm > 45d, cold > 90d). Suggests who to reach out to; never mutates the vault.
+description: "Use to see which people are due for reconnection. Read-only: scans people/ notes, computes days since last_contact, and flags contacts past a cadence threshold based on relationship (close > 14d, warm > 45d, cold > 90d). Suggests who to reach out to; never mutates the vault."
 ---
 
 # Radar de reconexión
