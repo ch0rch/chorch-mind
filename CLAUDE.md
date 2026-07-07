@@ -42,6 +42,8 @@ igual en Claude Code y en Eve:
 - `inbox-triage` — clasifica lo que entra a `inbox/raw/` y lo rutea.
 - `daily-log` — registra interacciones con personas en `daily/` (backlinks).
 - `para-classify` — clasifica notas en PARA (`projects/ areas/ resources/ archive/`) por accionabilidad.
+- `reconnect-radar` — sugiere a quién reconectar (read-only) por `last_contact`.
+- `weekly-synthesis` — digest semanal de `daily/` → nota en `reviews/`.
 
 Las notas-tema (MOC, "wiki por tema") viven en `resources/` a partir de
 `resources/_topic-template.md`.
